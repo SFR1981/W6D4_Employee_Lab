@@ -44,11 +44,14 @@ public class DirectorTest {
 
     @Test
     public void payBonus() {
-        assertEquals(250, director.payBonus(),0.01);
+        assertEquals(500, director.payBonus(),0.01);
     }
 
     @Test
     public void getBudget() {
         assertEquals(1000000, director.getBudget(), 0.01);
     }
+
+
+
 }
